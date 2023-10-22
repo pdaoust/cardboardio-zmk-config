@@ -1,0 +1,12 @@
+# Copyright (c) 2021 Pete Johanson
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_WEIRD_RP2040_CLONE
+
+config BOARD
+	default "weird_rp2040_clone"
+
+config RP2_FLASH_W25Q080
+	default y
+
+endif # BOARD_WEIRD_RP2040_CLONE

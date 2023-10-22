@@ -13,5 +13,5 @@
 #
 ---
 include:
-  - board: sparkfun_pro_micro_rp2040
-    shield: murphpad
+  - board: weird_rp2040_clone
+    shield: cardboardio_right

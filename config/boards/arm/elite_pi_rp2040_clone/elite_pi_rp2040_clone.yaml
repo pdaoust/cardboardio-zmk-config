@@ -1,0 +1,12 @@
+identifier: elite_pi_rp2040_clone
+name: Elite-Pi RP2040 clone
+type: mcu
+arch: arm
+flash: 2048
+ram: 264
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - serial

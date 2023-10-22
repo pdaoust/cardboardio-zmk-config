@@ -13,5 +13,5 @@
 #
 ---
 include:
-  - board: [elite_pi_rp2040_clone]
-    shield: [cardboardio_right]
+  - board: elite_pi_rp2040_clone
+    shield: cardboardio_right

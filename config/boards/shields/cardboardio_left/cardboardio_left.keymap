@@ -58,8 +58,8 @@
 
                         sensor-bindings = <
                                 // &inc_dep_kp UP DOWN
-                                &inc_dep_kp C_VOL_UP C_VOL_DOWN
-                                &inc_dep_kp C_AC_UNDO C_AC_REDO
+                                &inc_dec_kp C_VOL_UP C_VOL_DOWN
+                                &inc_dec_kp C_AC_UNDO C_AC_REDO
                         >;
                 };
                 func_arrows_layer {
@@ -88,7 +88,7 @@
 &trans        &trans        &trans        &tog LAYER_FUNC_ARR  /* &trans */  &trans        &trans
                         >;
                         sensor_bindings = <
-                                // &inc_dep_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN
+                                // &inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN
                                 &trans
                                 &trans
                         >;

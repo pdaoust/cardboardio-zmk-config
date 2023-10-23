@@ -18,11 +18,11 @@
 
 	i2c1_default: i2c1_default {
 		group1 {
-			pinmux = <I2C1_SDA_P0>;
+			pinmux = <I2C1_SDA_P10>;
 			input-enable;
 		};
 		group2 {
-			pinmux = <I2C1_SCL_P1>;
+			pinmux = <I2C1_SCL_P11>;
 			input-enable;
 		};
 	};

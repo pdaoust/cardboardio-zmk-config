@@ -11,16 +11,18 @@
 #define LAYER_DEFAULT 0
 #define LAYER_FUNC_ARR 1
 
+#define PALM(layer) &palm layer layer
+
 / {
         behaviors {
                 palm: palm_hold_tap {
                         compatible = "zmk,behavior-hold-tap";
                         label = "PALM_HOLD_TAP";
-                        #binding-cells = <0>;
+                        #binding-cells = <2>;
                         flavor = "balanced";
                         tapping-term-ms = <200>;
                         quick-tap-ms = <200>;
-                        bindings = <&tog LAYER_FUNC_ARR &mo LAYER_FUNC_ARR>;
+                        bindings = <&tog &mo>;
                 };
 
         };

@@ -1,6 +1,6 @@
 file_format: "1"
-id: cardboardio_right
-name: Cardboardio (right)
+id: cardboardio_left
+name: Cardboardio (left)
 type: shield
 requires: [adafruit_kb2040]
 features:

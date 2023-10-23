@@ -4,8 +4,16 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "cardboardio_right.dtsi"
+#include "cardboardio_left.dtsi"
 
 &thumb_encoder {
+    status = "disabled";
+};
+
+&lower_encoder {
+    status = "okay";
+};
+
+&upper_encoder {
     status = "okay";
 };

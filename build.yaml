@@ -14,4 +14,4 @@
 ---
 include:
   - board: adafruit_kb2040
-    shield: cardboardio_right
+    shield: cardboardio_left

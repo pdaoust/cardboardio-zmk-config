@@ -85,9 +85,6 @@
 &trans        &trans        &trans        &tog LAYER_FUNC_ARR         &trans        &trans     &trans
                         >;
 
-                        sensor_bindings = <
-                                &inc_dep_kp C_AC_SCROLL_LEFT C_AC_SCROLL_RIGHT
-                        >;
                 };
         };
 };

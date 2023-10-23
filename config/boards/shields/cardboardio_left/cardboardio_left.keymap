@@ -86,10 +86,6 @@
 &trans        &trans        &trans        &kp DOWN        &kp PG_DN     &trans         &trans
 &trans        &trans        &trans        &trans          /* &trans */  &trans         &trans
                         >;
-                        sensor-bindings = <
-                                &trans
-                                &trans
-                        >;
                 };
         };
 };

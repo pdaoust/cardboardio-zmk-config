@@ -4,6 +4,8 @@
  * SPDX-License-Identifier: MIT
  */
 
+#include "usb_console.dtsi"
+
 / {
 	pro_micro: connector {
 		compatible = "arduino-pro-micro";
@@ -50,4 +52,4 @@
 
 pro_micro_i2c: &i2c1 {};
 pro_micro_spi: &spi0 {};
-pro_micro_serial: &uart0 {};
+pro_micro_serial: { status = "disabled"; };

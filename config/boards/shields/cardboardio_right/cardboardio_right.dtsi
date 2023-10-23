@@ -55,13 +55,14 @@ RC(4,0) RC(4,1) RC(4,2)     RC(4,3)     RC(4,4) RC(4,5) RC(4,6)
         label = "THUMB_ENCODER";
         a-gpios = <&gpio0 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&gpio0 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        resolution = <1>;
+        steps = <80>;
         status = "disabled";
     };
 
-    sensors {
+    sensors: sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&thumb_encoder>;
+        triggers-per-rotaton = <20>;
     };
 };
 

@@ -55,7 +55,7 @@
                         >;
 
                         sensor-bindings = <
-                                &inc_dep_kp LEFT RIGHT
+                                &inc_dec_kp LEFT RIGHT
                         >;
                 };
 

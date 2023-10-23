@@ -81,7 +81,7 @@
               &kp  F6       &kp  F7       &kp  F8       &kp  F9       &kp  F10      &kp  F11
               &trans        &kp  PG_UP    &trans        &trans        &trans        &kp  F12
               &kp  HOME     &kp  LEFT     &kp  UP       &kp  RIGHT    &trans        &trans
-&trans        &trans        &kp  PG_DOWN  &kp  DOWN     &trans        &trans        &trans
+&trans        &trans        &kp  PG_DN    &kp  DOWN     &trans        &trans        &trans
 &trans        &trans        &trans        &tog LAYER_FUNC_ARR         &trans        &trans     &trans
                         >;
 

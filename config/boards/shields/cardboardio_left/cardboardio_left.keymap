@@ -80,11 +80,11 @@
  *                      +------+
  */
                         bindings = <
-&kp  ESC      &kp  F1       &kp  F2       &kp  F3              &kp  F4       &kp  F5
-&trans        &trans        &trans        &trans               &kp PG_UP     &trans         &trans
-&trans        &kp HOME      &kp LEFT      &kp UP               &kp RIGHT     &kp END        &trans
-&trans        &trans        &trans        &kp DOWN             &kp PG_DN     &trans         &trans
-&trans        &trans        &trans        &tog LAYER_FUNC_ARR  /* &trans */  &trans        &trans
+&kp  ESC      &kp  F1       &kp  F2       &kp  F3         &kp  F4       &kp  F5
+&trans        &trans        &trans        &trans          &kp PG_UP     &trans         &trans
+&trans        &kp HOME      &kp LEFT      &kp UP          &kp RIGHT     &kp END        &trans
+&trans        &trans        &trans        &kp DOWN        &kp PG_DN     &trans         &trans
+&trans        &trans        &trans        &trans          /* &trans */  &trans         &trans
                         >;
                         sensor_bindings = <
                                 &trans

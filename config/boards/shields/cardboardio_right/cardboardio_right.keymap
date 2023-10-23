@@ -20,7 +20,7 @@
                         flavor = "balanced";
                         tapping-term-ms = <200>;
                         quick-tap-ms = <200>;
-                        bindings = <&tog LAYER_FUNC_ARR>, <&mo LAYER_FUNC_ARR>;
+                        bindings = <&tog LAYER_FUNC_ARR &mo LAYER_FUNC_ARR>;
                 };
 
         };

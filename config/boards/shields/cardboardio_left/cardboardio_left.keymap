@@ -59,7 +59,7 @@
                         sensor-bindings = <
                                 /* &inc_dec_kp UP DOWN */
                                 &inc_dec_kp C_VOL_UP C_VOL_DN
-                                &inc_dec_kp C_AC_UNDO C_AC_REDO
+                                &inc_dec_kp K_UNDO K_REDO
                         >;
                 };
                 func_arrows_layer {
@@ -84,7 +84,7 @@
 &kp  ESC      &kp  F1       &kp  F2       &kp  F3         &kp  F4       &kp  F5
 &trans        &none         &none         &none           &kp PG_UP     &none          &trans
 &trans        &kp HOME      &kp LEFT      &kp UP          &kp RIGHT     &kp END        &trans
-&trans        &none         &none         &kp DOWN        &kp PG_DN     &none         &trans
+&trans        &none         &none         &kp DOWN        &kp PG_DN     &none          &trans
 &trans        &trans        &trans        &trans          /* &trans */  &trans         &trans
                         >;
                 };

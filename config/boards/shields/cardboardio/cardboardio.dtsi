@@ -6,7 +6,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-/*&pro_micro_spi {
+&pro_micro_spi {
 	status = "okay";
 	cs-gpios = <&gpio1 4 GPIO_ACTIVE_LOW>;
 	shifter: 595@0 {
@@ -19,7 +19,7 @@
 		#gpio-cells = <2>;
 		ngpios = <8>;
 	};
-};*/
+};
 
 / {
     chosen {

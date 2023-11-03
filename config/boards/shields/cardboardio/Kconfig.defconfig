@@ -4,9 +4,16 @@
 if SHIELD_CARDBOARDIO_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Cardboardio (left)"
+    default "Cardboardio"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_CARDBOARDIO_LEFT || SHIELD_CARDBOARDIO_RIGHT
 
 config ZMK_SPLIT
-    default n
+    default y
 
 endif

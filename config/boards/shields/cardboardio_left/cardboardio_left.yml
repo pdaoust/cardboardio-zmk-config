@@ -1,7 +1,0 @@
-file_format: "1"
-id: cardboardio_left
-name: Cardboardio (left)
-type: shield
-requires: [adafruit_kb2040]
-features:
-  - keys

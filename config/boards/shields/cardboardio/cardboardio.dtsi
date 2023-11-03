@@ -6,7 +6,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-&pro_micro_spi {
+/*&pro_micro_spi {
 	status = "okay";
 	cs-gpios = <&gpio1 4 GPIO_ACTIVE_LOW>;
 	shifter: 595@0 {
@@ -19,7 +19,7 @@
 		#gpio-cells = <2>;
 		ngpios = <8>;
 	};
-};
+};*/
 
 / {
     chosen {
@@ -48,20 +48,20 @@ RC(4,0) RC(4,1) RC(4,2)     RC(4,3)     RC(4,4) RC(4,5) RC(4,6)    RC(4,13) RC(4
 
         row-gpios
             = <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&gpio1 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
 
         col-gpios
-            = <&shifter 7 (GPIO_ACTIVE_HIGH)>
-            , <&shifter 6 (GPIO_ACTIVE_HIGH)>
-            , <&shifter 5 (GPIO_ACTIVE_HIGH)>
-            , <&shifter 4 (GPIO_ACTIVE_HIGH)>
-            , <&shifter 3 (GPIO_ACTIVE_HIGH)>
-            , <&shifter 2 (GPIO_ACTIVE_HIGH)>
-            , <&shifter 1 (GPIO_ACTIVE_HIGH)>
+            = <&gpio0 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio0 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio0 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio1 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
 

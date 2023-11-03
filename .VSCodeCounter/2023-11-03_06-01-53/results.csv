@@ -1,0 +1,4 @@
+"filename", "language", "YAML", "Properties", "comment", "blank", "total"
+"/home/paul/Programming/cardboardio-zmk-config/config/boards/shields/cardboardio/cardboardio.conf", "Properties", 0, 2, 0, 0, 2
+"/home/paul/Programming/cardboardio-zmk-config/config/boards/shields/cardboardio/cardboardio.zmk.yml", "YAML", 10, 0, 0, 1, 11
+"Total", "-", 10, 2, 0, 1, 13

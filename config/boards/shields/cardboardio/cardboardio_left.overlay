@@ -6,10 +6,6 @@
 
 #include "cardboardio.dtsi"
 
-&default_transform {
-    col-offset = <-7>;
-};
-
 &left_thumb_encoder {
     status = "okay";
 };

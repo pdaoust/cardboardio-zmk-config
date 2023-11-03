@@ -53,6 +53,16 @@ RC(4,0) RC(4,1) RC(4,2)     RC(4,3)     RC(4,4) RC(4,5) RC(4,6)    RC(4,13) RC(4
             , <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
+
+        col-gpios
+            = <&shifter 7 (GPIO_ACTIVE_HIGH)>
+            , <&shifter 6 (GPIO_ACTIVE_HIGH)>
+            , <&shifter 5 (GPIO_ACTIVE_HIGH)>
+            , <&shifter 4 (GPIO_ACTIVE_HIGH)>
+            , <&shifter 3 (GPIO_ACTIVE_HIGH)>
+            , <&shifter 2 (GPIO_ACTIVE_HIGH)>
+            , <&shifter 1 (GPIO_ACTIVE_HIGH)>
+            ;
     };
 
     left_thumb_encoder: encoder_left_thumb {

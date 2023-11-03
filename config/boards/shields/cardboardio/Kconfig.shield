@@ -3,6 +3,8 @@
 
 config SHIELD_CARDBOARDIO_LEFT
     def_bool $(shields_list_contains,cardboardio_left)
+    select SPI
 
 config SHIELD_CARDBOARDIO_RIGHT
     def_bool $(shields_list_contains,cardboardio_right)
+    select SPI

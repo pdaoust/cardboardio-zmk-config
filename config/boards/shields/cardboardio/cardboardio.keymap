@@ -10,7 +10,7 @@
 
 #define LAYER_DEFAULT 0
 #define L_FN_A 1
-#define L_NUM  2
+#define L_NUM_BT 2
 
 #define PALM(layer) &palm layer layer
 
@@ -69,7 +69,7 @@
  * +------+------+------+------+------+------+                            +------+------+------+------+------+------+
  * |  Esc |  F1  |  F2  |  F3  |  F4  |  F5  |       ------               |  F6  |  F7  |  F8  |  F9  |  F10 |  F11 |
  * +------+------+------+------+------+------+      (      )              +------+------+------+------+------+------+
- * |      |      |      |      | PgUp |      |       ------               |      | PgUp |      |      |      |  F12 |
+ * |      | BT0  | BT1  | BT2  | PgUp | BTC  |       ------               |      | PgUp |      |      |      |  F12 |
  * +------+------+------+------+------+------+   ------                   +------+------+------+------+------+------+
  * |      | Home |  ←   |  ↑   |  →   |  End |  (      )                  | Home |  ←   |  ↑   |  →   |  End |      |
  * +------+------+------+------+------+------+   ------                   +------+------+------+------+------+------+
@@ -84,7 +84,7 @@
  */
                         bindings = <
 &kp ESC         &kp F1          &kp F2          &kp F3          &kp F4          &kp F5                                          &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp F11
-&trans          &none           &none           &none           &kp PG_UP       &none           &trans                          &none           &kp PG_UP       &none           &none           &none           &kp F12
+&trans          &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &kp PG_UP       &bt BT_CLR      &trans                          &none           &kp PG_UP       &none           &none           &none           &kp F12
 &trans          &kp HOME        &kp LEFT        &kp UP          &kp RIGHT       &kp END         &trans                          &kp HOME        &kp LEFT        &kp UP          &kp RIGHT       &kp END         &none
 &trans          &none           &none           &kp DOWN        &kp PG_DN       &none           &trans          &trans          &none           &kp PG_DN       &kp DOWN        &none           &none           &none
 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &none           &none

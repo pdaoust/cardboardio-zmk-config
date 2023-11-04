@@ -5,7 +5,6 @@ type: shield
 requires: [pro_micro]
 features:
   - keys
-  - encoder
 siblings:
   - cardboardio_left
   - cardboardio_right

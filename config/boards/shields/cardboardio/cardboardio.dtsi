@@ -6,6 +6,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
+/*
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
@@ -24,7 +25,6 @@
     };
 }
 
-/*
 shift_register_spi: &spi0 {
     compatible = "nordic,nrf-spim";
     pinctrl-0 = <&spi0_default>;

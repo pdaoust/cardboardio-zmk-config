@@ -91,8 +91,8 @@ RC(4,0) RC(4,1) RC(4,2)     RC(4,3)     RC(4,4) RC(4,5) RC(4,6)    RC(4,13) RC(4
     left_thumb_encoder: encoder_left_thumb {
         compatible = "alps,ec11";
         label = "LEFT_THUMB_ENCODER";
-        a-gpios = <&gpio0 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        b-gpios = <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        a-gpios = <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <&gpio0 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         steps = <80>;
         status = "disabled";
     };
@@ -100,8 +100,8 @@ RC(4,0) RC(4,1) RC(4,2)     RC(4,3)     RC(4,4) RC(4,5) RC(4,6)    RC(4,13) RC(4
     right_thumb_encoder: encoder_right_thumb {
         compatible = "alps,ec11";
         label = "RIGHT_THUMB_ENCODER";
-        a-gpios = <&gpio0 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        b-gpios = <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        a-gpios = <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <&gpio0 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         steps = <80>;
         status = "disabled";
     };
@@ -109,8 +109,8 @@ RC(4,0) RC(4,1) RC(4,2)     RC(4,3)     RC(4,4) RC(4,5) RC(4,6)    RC(4,13) RC(4
     lower_encoder: encoder_lower {
         compatible = "alps,ec11";
         label = "LOWER_ENCODER";
-        a-gpios = <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        b-gpios = <&gpio0 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        a-gpios = <&gpio0 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         steps = <80>;
         status = "disabled";
     };

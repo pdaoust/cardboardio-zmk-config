@@ -30,7 +30,7 @@
                         #binding-cells = <0>;
                         tapping-term-ms = <200>;
                         bindings = <&pht L_FN_A L_FN_A>, <&pht L_NUM_SYM L_NUM_SYM>;
-                }
+                };
 
                 mmt: my_mod_tap {
                         compatible = "zmk,behavior-hold-tap";

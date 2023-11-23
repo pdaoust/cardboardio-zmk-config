@@ -17,63 +17,63 @@
         combos {
                 compatible = "zmk,combos";
                 combo_esc {
-                        key-positions = <0 11>;
+                        key-positions = <0 12>;
                         bindings = <&kp ESC>;
                 };
                 combo_lbkt {
-                        key-positions = <32 46>;
+                        key-positions = <34 48>;
                         bindings = <&kp LBKT>;
                 };
                 combo_rbkt {
-                        key-positions = <33 47>;
+                        key-positions = <35 49>;
                         bindings = <&kp RBKT>;
                 };
                 combo_f1 {
-                        key-positions = <1 12>;
+                        key-positions = <1 13>;
                         bindings = <&kp F1>;
                 };
                 combo_f2 {
-                        key-positions = <2 13>;
+                        key-positions = <2 14>;
                         bindings = <&kp F2>;
                 };
                 combo_f3 {
-                        key-positions = <3 14>;
+                        key-positions = <3 15>;
                         bindings = <&kp F3>;
                 };
                 combo_f4 {
-                        key-positions = <4 15>;
+                        key-positions = <4 16>;
                         bindings = <&kp F3>;
                 };
                 combo_f5 {
-                        key-positions = <5 16>;
+                        key-positions = <5 17>;
                         bindings = <&kp F5>;
                 };
                 combo_f6 {
-                        key-positions = <6 17>;
+                        key-positions = <6 18>;
                         bindings = <&kp F6>;
                 };
                 combo_f7 {
-                        key-positions = <7 18>;
+                        key-positions = <7 19>;
                         bindings = <&kp F7>;
                 };
                 combo_f8 {
-                        key-positions = <8 19>;
+                        key-positions = <8 20>;
                         bindings = <&kp F8>;
                 };
                 combo_f9 {
-                        key-positions = <9 20>;
+                        key-positions = <9 21>;
                         bindings = <&kp F9>;
                 };
                 combo_f10 {
-                        key-positions = <10 21>;
+                        key-positions = <10 22>;
                         bindings = <&kp F10>;
                 };
                 combo_f11 {
-                        key-positions = <11 22>;
+                        key-positions = <11 23>;
                         bindings = <&kp F11>;
                 };
                 combo_f12 {
-                        key-positions = <22 35>;
+                        key-positions = <23 37>;
                         bindings = <&kp F11>;
                 };
         };
@@ -113,23 +113,23 @@
                 default_layer {
 /* QWERTY
  *    +------+------+------+------+------+------+                             +------+------+------+------+------+------+
- * 0  |  `   |  1   |  2   |  3   |  4   |  5   |       ------             5  |  6   |  7   |  8   |  9   |  0   |  -   |
+ * 0  |  `   |  1   |  2   |  3   |  4   |  5   |       ------             6  |  6   |  7   |  8   |  9   |  0   |  -   |
  *    +------+------+------+------+------+------+      ( Mute )               +------+------+------+------+------+------+
- * 11 |  ⇥   |  Q   |  W   |  E   |  R   |  T   |       ------             17 |  Y   |  U   |  I   |  O   |  P   |  =   |
+ * 12 |  ⇥   |  Q   |  W   |  E   |  R   |  T   |       ------             19 |  Y   |  U   |  I   |  O   |  P   |  =   |
  *    +------+------+------+------+------+------+   ------                    +------+------+------+------+------+------+
- * 23 | Caps |  A   |  S   |  D   |  F   |  G   |  (      )                30 |  H   |  J   |  K   |  L   |  ;   |  '   |
+ * 25 | Caps |  A   |  S   |  D   |  F   |  G   |  (      )                32 |  H   |  J   |  K   |  L   |  ;   |  '   |
  *    +------+------+------+------+------+------+   ------                    +------+------+------+------+------+------+
- * 36 | Shift|  Z   |  X   |  C   |  V   |  B   |    +------+     +------+    |  N   |  M   |  ,   |  .   |  /   |  \   |
- *    +------+------+------+------+------+------+    | ⌦/Alt|  43 | ⌫/Alt|    +------+------+------+------+------+------+
- * 50 | Ctrl | Win  | Alt  |           +------+------+------+     +------+------+------+           | PtSc |  [   |  ]   |
- *    +------+------+------+           |  L↓  | ␣/⇧  | ⇥/Ctl|  57 | ⏎/Ctl| ␣/⇧  |  L↑  |           +------+------+------+
+ * 38 | Shift|  Z   |  X   |  C   |  V   |  B   |    +------+     +------+    |  N   |  M   |  ,   |  .   |  /   |  \   |
+ *    +------+------+------+------+------+------+    | ⌦/Alt|  45 | ⌫/Alt|    +------+------+------+------+------+------+
+ * 52 | Ctrl | Win  | Alt  |           +------+------+------+     +------+------+------+           | PtSc |  [   |  ]   |
+ *    +------+------+------+           |  L↓  | ␣/⇧  | ⇥/Ctl|  59 | ⏎/Ctl| ␣/⇧  |  L↑  |           +------+------+------+
  *                                     +------+------+------+     +------+------+------+
  *                         +------+                                                         +------+
- *                      53 | Layr |                                                      60 | Layr |
+ *                      55 | Layr |                                                      62 | Layr |
  *                         +------+                                                         +------+
  */
                         bindings = <
-&kp A       &kp N1          &kp N2          &kp N3          &kp N4          &kp N5                                          &kp N6          &kp N7          &kp N8          &kp N9          &kp N0          &kp MINUS
+&kp GRAVE       &kp N1          &kp N2          &kp N3          &kp N4          &kp N5                                          &kp N6          &kp N7          &kp N8          &kp N9          &kp N0          &kp MINUS
 &kp TAB         &kp Q           &kp W           &kp E           &kp R           &kp T           &kp C_MUTE                      &kp Y           &kp U           &kp I           &kp O           &kp P           &kp EQUAL
 &kp CAPS        &kp A           &kp S           &kp D           &kp F           &kp G           &none                           &kp H           &kp J           &kp K           &kp L           &kp SEMI        &kp APOS
 &kp LSHFT       &kp Z           &kp X           &kp C           &kp V           &kp B           &mmt LALT DEL   &mmt RALT BSPC  &kp N           &kp M           &kp COMMA       &kp PERIOD      &kp FSLH        &kp BSLH

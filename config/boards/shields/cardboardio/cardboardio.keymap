@@ -14,6 +14,85 @@
 #define L_NUM_SYM 2
 
 / {
+        combos {
+                compatible = "zmk,combos";
+                combo_esc {
+                        timeout-ms = <50>;
+                        key-positions = <0 11>;
+                        bindings = <&kp ESC>;
+                };
+                combo_lbkt {
+                        timeout-ms = <50>;
+                        key-positions = <32 46>;
+                        bindings = <&kp LBKT>;
+                };
+                combo_rbkt {
+                        timeout-ms = <50>;
+                        key-positions = <33 47>;
+                        bindings = <&kp RBKT>;
+                };
+                combo_f1 {
+                        timeout-ms = <50>;
+                        key-positions = <1 12>;
+                        bindings = <&kp F1>;
+                };
+                combo_f2 {
+                        timeout-ms = <50>;
+                        key-positions = <2 13>;
+                        bindings = <&kp F2>;
+                };
+                combo_f3 {
+                        timeout-ms = <50>;
+                        key-positions = <3 14>;
+                        bindings = <&kp F3>;
+                };
+                combo_f4 {
+                        timeout-ms = <50>;
+                        key-positions = <4 15>;
+                        bindings = <&kp F3>;
+                };
+                combo_f5 {
+                        timeout-ms = <50>;
+                        key-positions = <5 16>;
+                        bindings = <&kp F5>;
+                };
+                combo_f6 {
+                        timeout-ms = <50>;
+                        key-positions = <6 17>;
+                        bindings = <&kp F6>;
+                };
+                combo_f7 {
+                        timeout-ms = <50>;
+                        key-positions = <7 18>;
+                        bindings = <&kp F7>;
+                };
+                combo_f8 {
+                        timeout-ms = <50>;
+                        key-positions = <8 19>;
+                        bindings = <&kp F8>;
+                };
+                combo_f9 {
+                        timeout-ms = <50>;
+                        key-positions = <9 20>;
+                        bindings = <&kp F9>;
+                };
+                combo_f10 {
+                        timeout-ms = <50>;
+                        key-positions = <10 21>;
+                        bindings = <&kp F10>;
+                };
+                combo_f11 {
+                        timeout-ms = <50>;
+                        key-positions = <11 22>;
+                        bindings = <&kp F11>;
+                };
+                combo_f12 {
+                        timeout-ms = <50>;
+                        key-positions = <22 35>;
+                        bindings = <&kp F11>;
+                };
+        };
+
         behaviors {
                 pht: palm_hold_tap {
                         compatible = "zmk,behavior-hold-tap";

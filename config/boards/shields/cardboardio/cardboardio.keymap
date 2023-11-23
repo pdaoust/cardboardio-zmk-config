@@ -33,7 +33,7 @@
                         bindings = <&kp F1>;
                 };
                 combo_f2 {
-                        key-positions = <2 13>;t5
+                        key-positions = <2 13>;
                         bindings = <&kp F2>;
                 };
                 combo_f3 {

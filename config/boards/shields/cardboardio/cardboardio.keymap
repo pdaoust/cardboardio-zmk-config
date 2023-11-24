@@ -24,9 +24,17 @@
                         key-positions = <34 48>;
                         bindings = <&kp LBKT>;
                 };
+                combo_lbrace {
+                        key-positions = <21 34>;
+                        bindings = <&kp LBRC>;
+                };
                 combo_rbkt {
                         key-positions = <35 49>;
                         bindings = <&kp RBKT>;
+                };
+                combo_rbrace {
+                        key-positions = <22 35>;
+                        bindings = <&kp RBRC>;
                 };
                 combo_f1 {
                         key-positions = <1 13>;
@@ -75,6 +83,14 @@
                 combo_f12 {
                         key-positions = <23 37>;
                         bindings = <&kp F11>;
+                };
+                combo_meta {
+                        key-positions = <26 39>;
+                        bindings = <&kp LMETA>;
+                };
+                combo_prt_scn {
+                        key-positions = <36 50>;
+                        bindings = <&kp PSCRN>;
                 };
         };
 

@@ -104,13 +104,13 @@
                         bindings = <&mo L_FN_A &tog L_FN_A>;
                 };
 
-                phtd: palm_hold_tap_dance {
+                /* phtd: palm_hold_tap_dance {
                         compatible = "zmk,behavior-tap-dance";
                         label = "PALM_HOLD_TAP_DANCE";
                         #binding-cells = <0>;
                         tapping-term-ms = <200>;
                         bindings = <&pht L_FN_A L_FN_A>, <&pht L_NUM_SYM L_NUM_SYM>;
-                };
+                }; */
 
                 mmt: my_mod_tap {
                         compatible = "zmk,behavior-hold-tap";

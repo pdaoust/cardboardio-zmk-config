@@ -12,7 +12,7 @@
 #define LAYER_DEFAULT 0
 #define L_FN_A 1
 #define L_NUM_SYM 2
-#define PHT(layer) &palm layer layer
+#define PHT(layer) &pht layer layer
 
 / {
         combos {

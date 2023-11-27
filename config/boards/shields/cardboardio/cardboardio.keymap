@@ -98,10 +98,10 @@
                 pht: palm_hold_tap {
                         compatible = "zmk,behavior-hold-tap";
                         label = "PALM_HOLD_TAP";
-                        #binding-cells = <2>;
+                        #binding-cells = <0>;
                         flavor = "hold-preferred";
                         tapping-term-ms = <200>;
-                        bindings = <&mo &tog>;
+                        bindings = <&mo L_FN_A &tog L_FN_A>;
                 };
 
                 phtd: palm_hold_tap_dance {

@@ -117,9 +117,9 @@
                         compatible = "zmk,behavior-hold-tap";
                         label = "MY_MOD_TAP";
                         #binding-cells = <2>;
-                        flavor = "hold-preferred";
+                        flavor = "balanced";
                         tapping-term-ms = <200>;
-                        quick-tap-ms = <200>;
+                        quick-tap-ms = <300>;
                         bindings = <&kp &kp>;
                 };
         };
